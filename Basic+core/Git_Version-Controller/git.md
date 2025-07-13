@@ -14,3 +14,7 @@ git checkout -b branch_name ==> to create a new branch and switch to it.
 git merge branch_name ==> to merge a branch into the current branch.
 git remote add origin https://github.com/username/repository.git ==> to add a remote repository.
 git remote -v ==> to check the remote repository.
+
+
+git commit -a -m <commit message> ==> It is used to commit directly from working directory to commit .
+git diff ==> It is used to check what the chnages are in the file.
