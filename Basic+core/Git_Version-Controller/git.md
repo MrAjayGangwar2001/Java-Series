@@ -18,3 +18,7 @@ git remote -v ==> to check the remote repository.
 
 git commit -a -m <commit message> ==> It is used to commit directly from working directory to commit .
 git diff ==> It is used to check what the chnages are in the file.
+
+git rm --cached <file_name> ==> It is used to remove the file from staging area but not from the working directory.
+
+git clone <link repo. ...https://github.com...> ==> It is used to clone the repository from remote repository.
