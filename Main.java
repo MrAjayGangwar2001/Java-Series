@@ -4,7 +4,7 @@ public class Main {
         for(; i<=10; i=i+2){
             System.out.println(i);
         }
-        System.out.println("This is Testing for Loop : ");
+        System.out.println("This is Testing for Loop in Java: ");
         System.out.println("This is test : " +i);
     }
 }
