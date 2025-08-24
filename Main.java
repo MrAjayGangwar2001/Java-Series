@@ -7,6 +7,6 @@ public class Main {
             System.out.println("This will print all even Number from 0 to 10 : "+i);
         }
         System.out.println("This is Testing for Loop in Java: ");
-        System.out.println("This Will print i value End of the loop : " +i);      // i = 12
+        System.out.println("This Will print i value End of the loop : " +i);      // i = 12 Let's Run
     }
 }
