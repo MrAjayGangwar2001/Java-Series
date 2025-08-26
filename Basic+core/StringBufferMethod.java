@@ -10,8 +10,8 @@ public class StringBufferMethod{
         System.out.println(sb);  // Gangwar
         sb.insert(0 , "Mr.");
         System.out.println(sb);  // Mr. Gangwar
-        // sb.insert(3 , "A");
-        // System.out.println(sb);
+        sb.insert(3 , "A");
+        System.out.println(sb);
         // System.out.println(ab);
          
     }
