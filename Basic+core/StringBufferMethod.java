@@ -8,11 +8,11 @@ public class StringBufferMethod{
         int ab = sb.capacity();  // 20
         sb.deleteCharAt(0) ;
         System.out.println(sb);  // Gangwar
-        sb.insert(0 , "Mr.");
-        System.out.println(sb);  // Mr. Gangwar
-        sb.insert(3 , "A");
-        System.out.println(sb);
-        System.out.println(ab);
+        // sb.insert(0 , "Mr.");
+        // System.out.println(sb);  // Mr. Gangwar
+        // sb.insert(3 , "A");
+        // System.out.println(sb);
+        // System.out.println(ab);
          
     }
 
