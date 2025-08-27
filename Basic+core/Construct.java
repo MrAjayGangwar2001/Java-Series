@@ -1,5 +1,5 @@
 // In This Class We will learn Constructor in Java
-
+// Constructor are Two Types
 class A{
 
     public A() {
