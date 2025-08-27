@@ -17,7 +17,7 @@ class A{
     }
 
 }
-class B extends A {
+class B extends A {                // Here We Inherit Class A By Using extends Keyword
 
     public B() {
         super();
