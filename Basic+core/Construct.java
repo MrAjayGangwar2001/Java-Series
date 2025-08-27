@@ -1,5 +1,7 @@
 // In This Class We will learn Constructor in Java
 // Constructor are Two Types
+// 1. Default Constructor(Without Parameter)
+
 class A{
 
     public A() {
