@@ -27,11 +27,11 @@ public class Method_overloading {
         Overloading over = new Overloading();
         int add = over.parameter(5, 7);
         int add1 = over.parameter(5, 7, 4); // With different parameters
-        // double add2 = over.parameter(5.56, 7); // With different parameters
+        double add2 = over.parameter(5.56, 7); // With different parameters
         // double add3 = over.addition(6.6, 5);
         System.out.println("overloading with parameter:- " + add);
         System.out.println("overloading Same name with different parameter:- " + add1);
-        
+        System.out.println("overloading Same name with different parameter Type:- " + add2);
         
     }
 }
