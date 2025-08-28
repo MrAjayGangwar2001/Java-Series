@@ -5,7 +5,7 @@
 //  1. Run Time Polymorphism
 //  2. Compile Time Polymorphism
 
-
+// 👉 One person, many forms = Polymorphism
 
 
 /// This Is Example of Run Time Polymorphism
