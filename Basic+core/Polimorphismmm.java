@@ -35,7 +35,7 @@ public class Polimorphismmm {
 
         obj = new BB();
         obj.show();
-        // obj = new CC();
-        // obj.show();
+        obj = new CC();
+        obj.show();
     }
 }
