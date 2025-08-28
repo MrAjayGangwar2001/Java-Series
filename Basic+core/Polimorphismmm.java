@@ -1,6 +1,9 @@
 //😊😊😊😊😊😊😊😊😊👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉👉--------POLYMORPHISM-----😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊
 
 //  Polymorphism means the ability of one thing to behave in different ways depending on the situation.
+// Polymorphism is Two Types
+
+
 
 /// This Is Example of Run Time Polymorphism
 class AA {
