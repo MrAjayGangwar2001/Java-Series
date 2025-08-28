@@ -18,13 +18,13 @@ class AA {
 class BB extends AA{
     public void show()
     {
-        System.out.println("Class B in show Method");
+        System.out.println("Class B in show Method with Inherit A Class");
     }
 }
 class CC extends AA{
     public void show()
     {
-        System.out.println("Class C in show Method");
+        System.out.println("Class C in show Method with Extends A Class");
     }
 }
 
@@ -35,6 +35,7 @@ public class Polimorphismmm {
 
         obj = new BB();
         obj.show();
+
         obj = new CC();
         obj.show();
     }
