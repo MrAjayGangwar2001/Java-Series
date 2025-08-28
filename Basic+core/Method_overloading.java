@@ -1,4 +1,5 @@
 //   Method Overloading means having multiple methods with the same name in the same class,
+//  but with different parameter lists (different number of parameters OR different types of parameters OR different order of parameters)
 
 class Overloading {
 
@@ -25,12 +26,10 @@ public class Method_overloading {
     public static void main(String[] args) {
         Overloading over = new Overloading();
         int add = over.parameter(5, 7);
-        int add1 = over.parameter(5, 7, 4); // With different parameters
-        double add2 = over.parameter(5.56, 7); // With different parameters
-        double add3 = over.addition(6.6, 5);
+        // int add1 = over.parameter(5, 7, 4); // With different parameters
+        // double add2 = over.parameter(5.56, 7); // With different parameters
+        // double add3 = over.addition(6.6, 5);
         System.out.println("overloading with parameter:- " + add);
-        System.out.println("overloading Same name with different parameter:- " + add1);
-        System.out.println("overloading Same name with different parameter Type:- " + add2);
-        System.out.println("This is Another Method not overloading with different name with same parameter:- " + add3);
+        
     }
 }
