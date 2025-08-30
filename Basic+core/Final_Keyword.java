@@ -1,4 +1,5 @@
 // 😊😊😊😊😊😊😊😊😊😊😊😊FINAL 😊😊😊😊😊😊😊😊😊😊
+// Final Keyword can be use as a ------------👉👉👉👉👉👉👉    variable , Method And Class
 
 
 // final class uses_as_class{    // This final keyword not allow to extends/inherit this class-------
