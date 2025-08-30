@@ -2,6 +2,7 @@
 // Final Keyword can be use as a ------------👉👉👉👉👉👉👉    variable , Method And Class
 // 1 . We can use final keyword as a variable to Fix or ---Constant Value----- In java Instead of Const.......
 // 2 . We used final keyword in the class to -------prevent class extends----- or use.........We can not extends/inherit final keyword class---
+// 3 . We used final keyword in the Method to -------prevent Method Overridding(same class)----- or use.........We can not Override class with final keyword class---
 
 
 // final class uses_as_class{    // This final keyword not allow to extends/inherit this class-------
