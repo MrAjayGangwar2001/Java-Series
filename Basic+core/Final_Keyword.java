@@ -29,7 +29,7 @@ class usecases extends uses_as_class {
 public class Final_Keyword {
     public static void main(String[] args) {
         // final int num = 8; /// final used as CONST...
-        // //num = 9;             // Not Allowed becos We Use Final Variable
+        // //num = 9;             // Not Allowed becos We Use Final Keyword to Make it constant
         // System.out.println(num);
 
         usecases obj = new usecases();
