@@ -13,7 +13,7 @@ public class Abst_anonymous{
         Magic obj = new Magic() {
             public void CS1() 
             {
-                System.out.println("This is Anonymous Class Method");
+                System.out.println("This is Anonymous Class One Method");
             }
 
             public void CS2() 
