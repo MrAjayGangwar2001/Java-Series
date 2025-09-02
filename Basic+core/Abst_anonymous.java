@@ -11,11 +11,13 @@ abstract class Magic {
 public class Abst_anonymous{
     public static void main(String[] args) {
         Magic obj = new Magic() {
+            @Override
             public void CS1() 
             {
                 System.out.println("This is Anonymous Class One Method");
             }
 
+            @Override
             public void CS2() 
             {
                 System.out.println("This is Anonymous Class Second Method");
