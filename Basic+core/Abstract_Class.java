@@ -1,7 +1,8 @@
 //   ----------------------ABSTRACT CLASS----------------------
 //  Abstract class must have an Abstract Method
 //  if we applying abstract method it required to make abstract method
-
+//  we can not create abstract class object.......
+//  we have to use all the abstract method 
 
 
 abstract class Car {
