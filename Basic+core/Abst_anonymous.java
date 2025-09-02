@@ -1,6 +1,6 @@
  //   we are using Abastract and Anonymous class together...
 // We know we can not create object of Abastract class but by Anonymous class it is possible......let's see----
-
+// we Will create anonymous inner class---
 
 abstract class Magic {
     public abstract void CS1();
