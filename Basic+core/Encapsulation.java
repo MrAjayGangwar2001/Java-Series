@@ -1,3 +1,4 @@
+// We are Learn Encapsulation in Java
 //  Encapsulation means wrapping data (variables) and methods (functions) together into a single unit,
 //  and hiding internal details from outside access
 
