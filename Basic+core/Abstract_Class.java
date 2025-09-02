@@ -3,6 +3,9 @@
 //  if we applying abstract method it required to make abstract method
 //  we can not create abstract class object.......
 //  we have to use all the abstract method 
+//  It is not Neccessary abstract class have abstract method.......
+//  ❌ We cannot create an object of an abstract class
+
 
 
 abstract class Car {
