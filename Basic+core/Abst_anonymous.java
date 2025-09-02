@@ -18,7 +18,7 @@ public class Abst_anonymous{
 
             public void CS2() 
             {
-                System.out.println("This is Anonymous Class Method second");
+                System.out.println("This is Anonymous Class Second Method");
             }
         };
         obj.CS1();
