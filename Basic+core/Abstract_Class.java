@@ -5,7 +5,8 @@
 //  we have to use all the abstract method 
 //  It is not Neccessary abstract class have abstract method.......
 //  ❌ We cannot create an object of an abstract class
-
+//  "Use abstract methods when you know what must be done, but not how — and leave that decision to subclasses."
+//  Abstract Method = "Declare now, define later in child class"
 
 
 abstract class Car {
