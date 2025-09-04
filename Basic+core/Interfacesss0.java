@@ -20,7 +20,7 @@ interface Computer {
 }
 class Laptop implements Computer {                 // we replace EXTENDS to IMPLEMENTS in INTERFACE---------
     public void code() {
-        System.out.println("Write code , compile and execute");
+        System.out.println("Write code , compile and execute in Laptop");
     }
 }
 
