@@ -4,6 +4,10 @@
 //       👉 WE CAN ABSTRACT ONLY ONE CLASS                                       👉 WE CAN IMPLEMENTS MULTIPLE INTERFACES IN ONE CLASS 
 
 
+//  Class -- Class 👉 -->  Extends
+//  Class -- Interface 👉 --> Implements
+//  Interface -- Interface 👉 --> Extends
+
 
 interface Computer {
     void code();
