@@ -8,11 +8,12 @@
 //  Class -- Interface 👉 --> Implements
 //  Interface -- Interface 👉 --> Extends
 
-
-interface Computer {
-    void code();
+abstract class Computer {                    //  we replace ABSTRACT CLASS to interface to make it INTERFACE-------
+    public abstract  void code();           //  No need add public abstract in 👉Interface-----------
+    public abstract void mode();
 
 }
+
 
 class Laptop implements Computer {                 // we replace EXTENDS to IMPLEMENTS in INTERFACE---------
     public void code() {
