@@ -5,6 +5,7 @@
 // we can directly use valiable in main class-------
 
 //  Class -- Class 👉 -->  Extends
+//  Class -- Interface 👉 --> Implements
 
 
 
