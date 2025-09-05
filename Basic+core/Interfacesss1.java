@@ -20,10 +20,10 @@ interface first{
 class second implements first{
     public void show()
     {
-        System.out.println("It is Show Method of interface");
+        System.out.println("It is Show Method one of interface");
     }
     public void show2(){
-        System.out.println("It is show2 Method of interface");
+        System.out.println("It is show Method two of interface");
     }
 }
 public class Interfacesss1 {
