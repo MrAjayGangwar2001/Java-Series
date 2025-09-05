@@ -4,7 +4,7 @@
 // we can not only define variable we have to initilize the variale value.
 // we can directly use valiable in main class-------
 
-
+//  Class -- Class 👉 -->  Extends
 
 
 
