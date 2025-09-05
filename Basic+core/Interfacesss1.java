@@ -1,4 +1,6 @@
 
+//  we can not create object of Interface
+// Under the interface variable are by default Final and Static
 
 
 
