@@ -1,6 +1,9 @@
 
 //  we can not create object of Interface
 // Under the interface variable are by default Final and Static
+// we can not only define variable we have to initilize the variale value.
+// we can directly use valiable in main class-------
+
 
 
 
