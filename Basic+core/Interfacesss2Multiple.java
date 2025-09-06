@@ -17,7 +17,7 @@ interface Q {
     void evening();
 }
 
-interface R extends Q {
+interface R extends Q {        // Here The R Inherit Q class
     void accept();
 
     void reject();
