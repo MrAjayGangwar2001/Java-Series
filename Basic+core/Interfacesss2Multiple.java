@@ -1,9 +1,7 @@
 
 //  Class -- Class 👉 -->  Extends
 //  Class -- Interface 👉 --> Implements
-//  Interface -- Interface 👉 --> Extends
 
-//  Now we can extends interface to interface by using keyword extends like class-----
 
 interface P {
     void start();
