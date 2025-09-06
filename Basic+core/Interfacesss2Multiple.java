@@ -1,6 +1,8 @@
 
 //  Class -- Class 👉 -->  Extends
 //  Class -- Interface 👉 --> Implements
+//  Interface -- Interface 👉 --> Extends
+
 
 
 interface P {
