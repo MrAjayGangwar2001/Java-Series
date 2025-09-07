@@ -1,3 +1,5 @@
+// Ther Are Three Types of Interface
+// 1. Normal Interface :-
 
 
 // Functional interface
