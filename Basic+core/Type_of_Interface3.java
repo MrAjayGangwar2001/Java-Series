@@ -1,5 +1,6 @@
 // Ther Are Three Types of Interface
 // 1. Normal Interface :-
+//                           if we have 2 or more Method that is Normal interface 
 
 
 // Functional interface
