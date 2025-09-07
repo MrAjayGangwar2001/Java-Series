@@ -3,6 +3,8 @@
 //                           if we have 2 or more Method that is Normal interface 
 // //  Functional/SAM Interface :- 
 //                                 if We have one Method Interface that's called SAM(Single Abstract Method);;
+// //  Marker Interface :-
+//                        if we have only one Method that is empty(No Method) interface(Blank Interface)
 
 // Functional interface
 @FunctionalInterface
