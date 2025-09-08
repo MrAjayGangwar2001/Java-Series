@@ -16,6 +16,11 @@ public class Enum1 {
         Status[] ss = Status.values();
         System.out.println(ss[1]);
         //--------OR -----------
+         for(Status sss : ss)
+        {
+            System.out.println(sss+ " : " +sss.ordinal());
+        }
+        
         
        
     }
