@@ -5,7 +5,7 @@
 
 
 enum Status{
-    Running , Failed , Pending , Success
+    Running , Failed , Pending , Success            // These All Are the Status Of Operation
 }
 
 public class Enum1 {
@@ -16,7 +16,7 @@ public class Enum1 {
         Status[] ss = Status.values();
         System.out.println(ss[1]);
         //--------OR -----------
-        // --------by Using Foreach loop------
+        // --------by Using Foreach loop------For All Status------------
          for(Status sss : ss)
         {
             System.out.println(sss+ " : " +sss.ordinal());
