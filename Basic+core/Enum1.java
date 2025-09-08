@@ -24,9 +24,9 @@ public class Enum1 {
         //-----------------------------OR--------------------------- 
         
         // Let's consider this statement-------- Status s = Status.Success; 
-           
+
         if (s == Status.Failed) {
-            System.out.println("Try Again");
+            System.out.println("Try Again !");
         } else if(s == Status.Running) {
             System.out.println("just A movement");
         }
