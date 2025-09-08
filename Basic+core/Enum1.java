@@ -15,6 +15,7 @@ public class Enum1 {
         // Other Way to use it
         Status[] ss = Status.values();
         System.out.println(ss[1]);
+        //--------OR -----------
         
        
     }
