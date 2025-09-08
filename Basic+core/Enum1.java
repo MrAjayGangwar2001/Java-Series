@@ -21,6 +21,21 @@ public class Enum1 {
         {
             System.out.println(sss+ " : " +sss.ordinal());
         }
+        //-----------------------------OR--------------------------- 
+        
+        // Let's consider this statement-------- Status s = Status.Success; 
+           
+        if (s == Status.Failed) {
+            System.out.println("Try Again");
+        } else if(s == Status.Running) {
+            System.out.println("just A movement");
+        }
+        else if(s == Status.Pending){
+            System.out.println("Please Wait , Processing");
+        }
+        else{
+            System.out.println("All Good, Completed");
+        }
         
         
        
