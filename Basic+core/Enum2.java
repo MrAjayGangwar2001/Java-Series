@@ -19,11 +19,9 @@ enum Laptop{
 
 public class Enum2 {
     public static void main(String[] args) {
-       
+        Laptop lap = Laptop.Lenovo;
+        System.out.println(lap+ " : " +lap.getPrice());
 
-        for(Laptop lap : Laptop.values())
-        {
-            System.out.println(lap+ " : " +lap.getPrice());
-        }
+        
     }
 }
