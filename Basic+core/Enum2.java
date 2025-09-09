@@ -1,4 +1,5 @@
 
+// Here We will UnderStand More About Enum
 enum Laptop{
     Macbook(90000), HP(70000) , Dell(60000) , Lenovo(50000);
 
