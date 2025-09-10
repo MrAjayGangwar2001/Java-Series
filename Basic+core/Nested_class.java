@@ -1,3 +1,4 @@
+//  we have to refered of class NA for N_B to specify otherwise we can not create object....
 
 class NA {
     int n;
