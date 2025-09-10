@@ -9,35 +9,34 @@ class NA {
 
     }
 
-    static class N_B {             // This is Nested Class
-    public void Ba() {
-    System.out.println("Nested Show");
-    }
+    static class N_B { // This is Nested Class
+        // public void Ba() {
+        //     System.out.println("Nested Show");
+        // }
     }
 }
 
 public class Nested_class {
     public static void main(String[] args) {
         /*
-        NA obj = new NA();
-        obj.show();
-         
-
-        //NA.N_B obj1 = obj.new N_B();    // we refered class NA to N_B
-        NA.N_B obj1 = new NA.N_B();
-        obj1.Ba();
+         * NA obj = new NA();
+         * obj.show();
+         * 
+         * 
+         * //NA.N_B obj1 = obj.new N_B(); // we refered class NA to N_B
+         * NA.N_B obj1 = new NA.N_B();
+         * obj1.Ba();
          */
 
+        // 👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇--------NEW METHOD TO USE
+        // METHOD-----👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
 
-         // 👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇--------NEW METHOD TO USE METHOD-----👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
-
-         NA obj = new NA()
-         {
+        NA obj = new NA() {
             public void show() {
-                 
-               System.out.println("This is new method/way to use Method");
-           }
-         };
-         obj.show();
+
+                System.out.println("This is new method/way to use Method");
+            }
+        };
+        obj.show();
     }
 }
