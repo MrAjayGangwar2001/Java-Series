@@ -28,7 +28,7 @@ public class Nested_class {
          * obj1.Ba();
          */
 
-        // 👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇--------NEW METHOD TO USE
+        // 👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇--------NEW METHOD TO USE IT-------
         // METHOD-----👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
 
         NA obj = new NA() {
