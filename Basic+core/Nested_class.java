@@ -9,11 +9,11 @@ class NA {
 
     }
 
-    static class N_B { // This is Nested Class
-        // public void Ba() {
-        //     System.out.println("Nested Show");
-        // }
-    }
+    // static class N_B { // This is Nested Class
+    //     // public void Ba() {
+    //     //     System.out.println("Nested Show");
+    //     // }
+    // }
 }
 
 public class Nested_class {
