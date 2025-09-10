@@ -1,4 +1,5 @@
 //  we have to refered of class NA for N_B to specify otherwise we can not create object....
+//  if we make inner class static then not required to ref. class A to B (only make static inner class not outer class)
 
 class NA {
     int n;
