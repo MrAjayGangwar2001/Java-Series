@@ -14,6 +14,8 @@
 //   
 //   ✅ To improve readability and conciseness.
 //   
+//   ✅ To make it easier to use Streams and Collections processing (like filtering, mapping, reducing
+
 interface X {
 
     void display();
