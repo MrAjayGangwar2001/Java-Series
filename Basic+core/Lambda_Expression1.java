@@ -1,6 +1,8 @@
 // 👉  A lambda expression is a short block of code that takes in parameters and returns a value.
 // It’s used to represent a method without writing a full method — mainly for implementing functional interfaces
 
+//  Lamda Expression ( -> )
+//  It Reduce the code and automatically get the value
 
 interface X {
 
