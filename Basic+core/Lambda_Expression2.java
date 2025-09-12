@@ -1,5 +1,5 @@
 // Lambda Expression Second File
-// Here we are using with Parameter
+// Here we are using Lambda Expression with Parameter
 
 @FunctionalInterface
 interface X{
