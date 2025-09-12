@@ -12,7 +12,8 @@
 //   
 //   ✅ To enable functional programming in Java.
 //   
-
+//   ✅ To improve readability and conciseness.
+//   
 interface X {
 
     void display();
