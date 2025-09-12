@@ -7,6 +7,9 @@
 // This is Example without Parameter
 //  NOTE :-👉  Lamda Expression will work with only functional Interface  
 // ---------------🙄🙄🙄🙄🙄Why We Use Lambda Exp.🙄🙄🙄🙄🙄-------------------
+// 1. Why We Use Lambda Expressions:
+//   ✅ To reduce boilerplate code (no need to write full anonymous classes).
+//   
 
 interface X {
 
