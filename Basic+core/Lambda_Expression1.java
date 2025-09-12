@@ -6,6 +6,7 @@
 //  Here Below the Use cases
 // This is Example without Parameter
 //  NOTE :-👉  Lamda Expression will work with only functional Interface  
+// ---------------🙄🙄🙄🙄🙄Why We Use Lambda Exp.🙄🙄🙄🙄🙄-------------------
 
 interface X {
 
