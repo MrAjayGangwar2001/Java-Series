@@ -10,6 +10,8 @@
 // 1. Why We Use Lambda Expressions:
 //   ✅ To reduce boilerplate code (no need to write full anonymous classes).
 //   
+//   ✅ To enable functional programming in Java.
+//   
 
 interface X {
 
