@@ -3,6 +3,9 @@
 
 //  Lamda Expression ( -> )
 //  It Reduce the code and automatically get the value
+//  Here Below the Use cases
+// This is Example without Parameter
+//  NOTE :-👉  Lamda Expression will work with only functional Interface  
 
 interface X {
 
