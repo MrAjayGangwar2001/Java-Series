@@ -20,6 +20,6 @@ public class Lamda_Expression3 {
         int sum = obj.add(6,9);
         System.out.println(sum);
 
-        
+        // Now the same Output We will se by Using Lambda Expression
     }
 }
