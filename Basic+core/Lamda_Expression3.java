@@ -20,8 +20,6 @@ public class Lamda_Expression3 {
         int sum = obj.add(6,9);
         System.out.println(sum);
 
-       
-        int sum = obj.add(6,9);
-        System.out.println(sum);
+        
     }
 }
