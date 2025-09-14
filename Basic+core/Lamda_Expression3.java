@@ -28,6 +28,6 @@ public class Lamda_Expression3 {
             return x+y;
         };
         int sum = obj.add(6,9);
-        System.out.println(sum);
+        System.out.println("Sum of Two Numbers : "+sum);
     }
 }
