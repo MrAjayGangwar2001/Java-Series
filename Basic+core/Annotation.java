@@ -17,6 +17,6 @@ class ZBC extends PCM {
 public class Annotation {
     public static void main(String[] args) {
         ZBC paisa = new ZBC();
-        paisa.UGkebaadsakopaisakamanahai();
+        paisa.UGkebaadsakopaisakamanahai();     // Here the ZBC Method will run becoz PCM method is Override
     }
 }
