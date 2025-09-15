@@ -7,7 +7,8 @@ class PCM {
 
 class ZBC extends PCM {
 
-    @Override                                //  This(Override) is Annotation in Java
+    @Override                       //  This(Override) is Annotation in Java     
+    // This is a type of Annotation to specify the Method types so it can check it during compile time
     public void UGkebaadsakopaisakamanahai() {
         System.out.println("Zology , Botany , Chemistry");
     }
