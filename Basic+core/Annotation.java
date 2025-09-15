@@ -1,13 +1,13 @@
 
 class PCM {
-    public void UGkebaadsakopaisakamanahai()
-    {
+    public void UGkebaadsakopaisakamanahai() {
         System.out.println("Physics , Chemistry , Math");
     }
 }
 
 class ZBC extends PCM {
 
+    @Override                                //  This(Override) is Annotation in Java
     public void UGkebaadsakopaisakamanahai() {
         System.out.println("Zology , Botany , Chemistry");
     }
