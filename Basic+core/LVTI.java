@@ -27,6 +27,8 @@ public class LVTI {
         // For Object
 
        Stu obj = new Stu();
+       var obj1 = new Stu(); // Here var keyword is used to declare an object
+
 
     }
 }
