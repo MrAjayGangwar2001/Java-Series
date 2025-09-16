@@ -1,9 +1,9 @@
-// in This File we will learn Parameterised Constructor
+// In This File we will learn Parameterised Constructor
 class Student1 {
     String name;
     int age;
 
-    Student1(String n, int a) {  // Parameterized constructor
+    Student1(String n, int a) {  // Parameterized constructor, here We provide the parameter of Constructor
         name = n;
         age = a;
     }
