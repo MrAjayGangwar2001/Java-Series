@@ -8,7 +8,7 @@ class Student1 {
         age = a;
     }
 
-    void display() {
+    void display() {                         // Here We Are Printing the data by Using Method
         System.out.println("Name: " + name + ", Age: " + age);
     }
 }
