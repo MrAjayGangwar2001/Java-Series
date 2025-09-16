@@ -1,6 +1,7 @@
 //  LVTI  ==>  Local Variable Type Inferences
 
 // In java 10 Update a Var keywords was introduced
+// var keyword is used to declare a local variable  without specify type of variable
 
 
 
