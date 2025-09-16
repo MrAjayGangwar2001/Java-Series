@@ -15,7 +15,7 @@ class Student1 {
 
 public class Para_const  {
     public static void main(String[] args) {
-        Student1 s2 = new Student1("Ajay", 22);  
+        Student1 s2 = new Student1("Ajay", 22);  // Parameterized constructor called here
         s2.display();
     }
 }
