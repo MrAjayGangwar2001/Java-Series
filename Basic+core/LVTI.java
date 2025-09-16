@@ -24,10 +24,6 @@ public class LVTI {
         var arr1 = new int[4];    // also we can use var keyword to declare array
         System.out.println(arr1.length);
 
-        // For Object
-
-       // Stu obj = new Stu();
-
-        var obj1 = new Stu(); // Here var keyword is used to declare an object
+       
     }
 }
