@@ -1,6 +1,6 @@
 //  LVTI  ==>  Local Variable Type Inferences
 
-
+// In java 10 Update a Var keywords was introduced
 
 
 
