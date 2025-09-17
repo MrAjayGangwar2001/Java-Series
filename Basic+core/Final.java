@@ -11,7 +11,12 @@
 
 // }
 
+//   If we want to inheritance sealed or final class then we have to use permits then class name.....
+//   and for sub class we have to use extends keyword with final or non-sealed keywords
 
+// AGAIN We can not inherit final class by any class like B and C class can not be inherit by others
+// class B extends A { }   // This is not possible because A is final class
+// If we want to extend class B then we have to use non-sealed keyword instead of final
 
 sealed class A permits B,C {
 
