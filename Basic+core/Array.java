@@ -58,8 +58,9 @@ public class Array {
         age[1] = 23;
         age[2] = 25;
         age[3] = 27;
-        // for each loop
 
+        
+        // for each loop
         for(int ag : age)
         {
             System.out.println(ag);
