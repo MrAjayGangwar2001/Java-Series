@@ -29,11 +29,11 @@ public class Stream_API {
             System.out.println(result);
 
         //we used sorted method and there are many method in Stream APIs
-        Stream<Integer> sorted = num.stream()
-                //.filter(n -> n % 2 == 0)
-                .map(n -> n*2)
-                .sorted();
-        sorted.forEach(n -> System.out.println(n));
+        // Stream<Integer> sorted = num.stream()
+        //         //.filter(n -> n % 2 == 0)
+        //         .map(n -> n*2)
+        //         .sorted();
+        // sorted.forEach(n -> System.out.println(n));
 
         st3.forEach(n ->System.out.println(n));
         st1.forEach(n ->System.out.println(n));     /// This will not print any value because stream is closed after first print.
