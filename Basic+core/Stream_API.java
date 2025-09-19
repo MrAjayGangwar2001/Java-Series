@@ -48,6 +48,11 @@ public class Stream_API {
 
         System.out.println("------------------------------------------------");
 
+        // 📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+        for (int n : num){               
+            System.out.println(n);
+        }
+
     }
 
 }
