@@ -4,6 +4,7 @@
 // Once we print the stream it will be executed and it will be closed.again we can't Re-print the same value by the same stream.
 // Streams Comes from Interface
 //  In the Stream API Methods we Used Many Methods to Print List. We will See below :-
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
@@ -38,22 +39,23 @@ public class Stream_API {
 
         st3.forEach(n -> System.out.println(n));
         st1.forEach(n -> System.out
-                .println(n)); /// This will not print any value because stream is closed after first print.
+                .println(n));                        // This will not print any value because stream is closed after first print.
 
-        num.forEach(n -> System.out.println(n)); // This is the for each method to print the list
+        num.forEach(n -> System.out.println(n));        // This is the for each method to print the list
 
-        for (int i = 0; i < num.size(); i++) { // This Is normal for Loop to print the list
-            System.out.println(num.get(i));
-        }
+        // for (int i = 0; i < num.size(); i++) {         // This Is normal for Loop to print the list
+        //     System.out.println(num.get(i));
+        // }
 
         System.out.println("------------------------------------------------");
 
         // 📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
-        for (int n : num){               // This Is Enhanced For/for Each Loop instead of Normal for loop to print the list
+        for (int n : num) { // This Is Enhanced For/for Each Loop instead of Normal for loop to print the
+                            // list
             System.out.println(n);
         }
 
-        //  📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+        // 📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
 
         int sum = 0;
         for (int n : num) {
@@ -61,7 +63,7 @@ public class Stream_API {
                 n = n * 2;
                 sum += n;
             }
-            //System.out.println(n);
+            // System.out.println(n);
         }
         System.out.println(sum);
 
