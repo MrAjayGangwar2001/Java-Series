@@ -41,6 +41,8 @@ public class Stream_API {
         num.forEach(n ->System.out.println(n));       // This is the for each method to print the list
 
 
-         
+         for (int i = 0; i < num.size(); i++) {           
+            System.out.println(num.get(i));
+        }
     }
 }
