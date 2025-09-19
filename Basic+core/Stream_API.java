@@ -55,6 +55,14 @@ public class Stream_API {
 
         //  📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
 
+        int sum = 0;
+        for (int n : num) {
+            if (n % 2 == 0) {
+                n = n * 2;
+                sum += n;
+            }
+            System.out.println(n);
+        }
 
     }
 
