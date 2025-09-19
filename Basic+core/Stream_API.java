@@ -14,7 +14,7 @@ public class Stream_API {
 
         List<Integer> num = Arrays.asList(4, 5, 7, 10, 23, 50, 67);
 
-        
+        // Instead of these five(5) lines of code we can write or short code using Stream API that is below👇
 
         //👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
         int result = num.stream()
