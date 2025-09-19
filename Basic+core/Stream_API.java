@@ -34,6 +34,8 @@ public class Stream_API {
                 .map(n -> n*2)
                 .sorted();
         sorted.forEach(n -> System.out.println(n));
+
+        st3.forEach(n ->System.out.println(n));
          
     }
 }
