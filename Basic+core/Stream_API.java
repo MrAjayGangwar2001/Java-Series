@@ -14,35 +14,40 @@ public class Stream_API {
 
         List<Integer> num = Arrays.asList(4, 5, 7, 10, 23, 50, 67);
 
-        // // Instead of these five(5) lines of code we can write or short code using Stream API that is below👇
+        // // Instead of these five(5) lines of code we can write or short code using
+        // Stream API that is below👇
         // Stream<Integer> st1 = num.stream();
         // Stream<Integer> st2 = st1.filter(n -> n%2==0);
         // Stream<Integer> st3 = st2.map(n -> n*2);
-        // int  st4 = st3.reduce(0 ,(c,e) -> c+e);
+        // int st4 = st3.reduce(0 ,(c,e) -> c+e);
         // System.out.println(st4);
 
-        //👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
+        // 👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
         int result = num.stream()
-            .filter(n -> n % 2 == 0)
-            .map(n -> n * 2)
-            .reduce(0, (c, e) -> c + e);
-            System.out.println(result);
+                .filter(n -> n % 2 == 0)
+                .map(n -> n * 2)
+                .reduce(0, (c, e) -> c + e);
+        System.out.println(result);
 
-        //we used sorted method and there are many method in Stream APIs
+        // we used sorted method and there are many method in Stream APIs
         // Stream<Integer> sorted = num.stream()
-        //         //.filter(n -> n % 2 == 0)
-        //         .map(n -> n*2)
-        //         .sorted();
+        // //.filter(n -> n % 2 == 0)
+        // .map(n -> n*2)
+        // .sorted();
         // sorted.forEach(n -> System.out.println(n));
 
-        st3.forEach(n ->System.out.println(n));
-        st1.forEach(n ->System.out.println(n));     /// This will not print any value because stream is closed after first print.
+        st3.forEach(n -> System.out.println(n));
+        st1.forEach(n -> System.out
+                .println(n)); /// This will not print any value because stream is closed after first print.
 
-        num.forEach(n ->System.out.println(n));       // This is the for each method to print the list
+        num.forEach(n -> System.out.println(n)); // This is the for each method to print the list
 
-
-         for (int i = 0; i < num.size(); i++) {           // This Is normal for Loop to print the list
+        for (int i = 0; i < num.size(); i++) { // This Is normal for Loop to print the list
             System.out.println(num.get(i));
         }
+
+        System.out.println("------------------------------------------------");
+
     }
+
 }
