@@ -53,6 +53,9 @@ public class Stream_API {
             System.out.println(n);
         }
 
+        //  📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+
+
     }
 
 }
