@@ -49,7 +49,7 @@ public class Stream_API {
         System.out.println("------------------------------------------------");
 
         // 📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
-        for (int n : num){               
+        for (int n : num){               // This Is Enhanced For Loop to print the list
             System.out.println(n);
         }
 
