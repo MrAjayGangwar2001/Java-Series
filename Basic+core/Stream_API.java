@@ -28,6 +28,12 @@ public class Stream_API {
             .reduce(0, (c, e) -> c + e);
             System.out.println(result);
 
+        //we used sorted method and there are many method in Stream APIs
+        Stream<Integer> sorted = num.stream()
+                //.filter(n -> n % 2 == 0)
+                .map(n -> n*2)
+                .sorted();
+        sorted.forEach(n -> System.out.println(n));
          
     }
 }
