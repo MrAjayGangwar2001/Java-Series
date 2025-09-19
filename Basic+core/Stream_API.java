@@ -38,6 +38,9 @@ public class Stream_API {
         st3.forEach(n ->System.out.println(n));
         st1.forEach(n ->System.out.println(n));     /// This will not print any value because stream is closed after first print.
 
+        num.forEach(n ->System.out.println(n));       // This is the for each method to print the list
+
+
          
     }
 }
