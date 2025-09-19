@@ -1,6 +1,7 @@
 // Stream API(Interface) 
 
 // Streams Provides Lot of Methods Like filter , map, reduce, sorted, find, findIndex, forEach, some, every, etc.
+// Once we print the stream it will be executed and it will be closed.again we can't Re-print the same value by the same stream.
 
 import java.util.Arrays;
 import java.util.List;
