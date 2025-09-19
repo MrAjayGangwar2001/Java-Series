@@ -61,8 +61,9 @@ public class Stream_API {
                 n = n * 2;
                 sum += n;
             }
-            System.out.println(n);
+            //System.out.println(n);
         }
+        System.out.println(sum);
 
     }
 
