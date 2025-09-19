@@ -36,6 +36,8 @@ public class Stream_API {
         sorted.forEach(n -> System.out.println(n));
 
         st3.forEach(n ->System.out.println(n));
+        st1.forEach(n ->System.out.println(n));     
+
          
     }
 }
