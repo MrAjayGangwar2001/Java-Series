@@ -1,4 +1,4 @@
-// Now Here, This is the Third One VeryAdvance Calc file
+// Now Here, This is the Third One VeryAdvance Calc file which is Inherit Advance Calc class
 
 public class VeryAdvCalc extends advanceCalc
 {
