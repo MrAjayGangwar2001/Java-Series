@@ -1,6 +1,7 @@
 // Inheritance to inherit property from parent to child and it have many forms.
 // 1. create main file and make ref. object and give reference
 // 2. make it Calc.java file .This file refrence give in main file
+// 3. make it another third file and gave it refrence from Calc.java file by using extends keywords
 
 //  ****** Like this we can use another file and make it chain like child ******//
 
