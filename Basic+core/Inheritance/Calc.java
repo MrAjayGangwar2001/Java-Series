@@ -1,3 +1,5 @@
+// This is The Calc class file and will inherit this
+
 public class Calc {
     public int add(int n1 ,int n2)
     {
