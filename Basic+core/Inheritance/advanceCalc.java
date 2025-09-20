@@ -1,4 +1,4 @@
- // This is Another Advance Calc file
+ // This is Another Advance Calc file & this Inherit Calc class File
 
 public class advanceCalc extends Calc
 {
