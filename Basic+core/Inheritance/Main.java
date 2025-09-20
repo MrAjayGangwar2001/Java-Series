@@ -3,6 +3,7 @@
 // 2. make it Calc.java file .This file refrence give in main file
 // 3. make it another third file and gave it refrence from Calc.java file by using extends keywords
 ///👉👉👉👉👉👉👉For Inheritance Required a .class file👉👉👉👉👉👉👉👉
+/// After compilation if we delete any file afterthat it will work
 
 //  ****** Like this we can use another file and make it chain like child ******//
 
