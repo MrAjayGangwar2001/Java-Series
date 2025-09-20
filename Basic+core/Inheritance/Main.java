@@ -4,6 +4,7 @@
 // 3. make it another third file and gave it refrence from Calc.java file by using extends keywords
 ///👉👉👉👉👉👉👉For Inheritance Required a .class file👉👉👉👉👉👉👉👉
 /// After compilation if we delete any file afterthat it will work
+/// These are the MULTI LEVEL INHERITANCE
 
 //  ****** Like this we can use another file and make it chain like child ******//
 
