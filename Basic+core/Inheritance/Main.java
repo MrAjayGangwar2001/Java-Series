@@ -1,4 +1,4 @@
-
+// Inheritance to inherit property from parent to child and it have many forms.
 
 //  ****** Like this we can use another file and make it chain like child ******//
 
