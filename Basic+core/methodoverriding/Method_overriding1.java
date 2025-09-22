@@ -10,7 +10,7 @@ class Demo {
 
     public void hidden()
     {
-        System.out.println("Hidden of method show");
+        System.out.println("Hidden method in parent class");
     }
 }
 
