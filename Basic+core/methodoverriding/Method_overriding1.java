@@ -17,7 +17,7 @@ class Demo {
 class Demo2 extends Demo {
     public void show() 
     {
-        System.out.println("This is class Demo2 method show2");
+        System.out.println("This is class2 Demo2 method show2");
     }
 }
 
