@@ -1,14 +1,15 @@
+package methodoverriding;
+
 // This is Another Example of METHOD OVERRIDING
 // In Overriding , it have same class , same method ...Everythig is same But Behaviour is Different
 
-package methodoverriding;
 
 //import Calc;
 
 class Calc{
     public int add(int a , int b)
     {
-        return a+b;
+        return a+b;          // it simple add two values
     }
 
 }
