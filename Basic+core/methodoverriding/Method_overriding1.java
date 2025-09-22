@@ -2,7 +2,7 @@ package methodoverriding;
 
 //  Method Overriding means redefining a method of the parent class in the child class with the same name,
 //  return type, and parameters.
-
+// Method Overriding is a run time inheritance
 class Demo {
     public void show() {
         System.out.println("It is Show Method ");
