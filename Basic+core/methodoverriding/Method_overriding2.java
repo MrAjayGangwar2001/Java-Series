@@ -1,4 +1,6 @@
 // This is Another Example of METHOD OVERRIDING
+// In Overriding , it have same class , same method ...Everythig is same But Behaviour is Different
+
 package methodoverriding;
 
 //import Calc;
