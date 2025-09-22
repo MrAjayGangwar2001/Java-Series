@@ -5,7 +5,7 @@ package methodoverriding;
 // Method Overriding is a run time inheritance
 class Demo {
     public void show() {
-        System.out.println("It is Show Method ");
+        System.out.println("It is Show Method in parent class");
     }
 
     public void hidden()
