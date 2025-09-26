@@ -5,6 +5,7 @@
 
 // In this program we using mutable variable that is count that default value is 0
 
+//  NOTE :- 👉👉👉  To Fix of all these issues we will use Synchronized keyword in class method--------👍👍 
 
 
 class Counter {
