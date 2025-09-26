@@ -1,6 +1,7 @@
 
 // In this program we will learn mutation variable that is using two threads at a time
-
+// Mutable Variable 
+// Unmutable Variable
 class Counter {
     int count;
 
