@@ -1,4 +1,6 @@
 
+// In this program we will learn mutation variable that is using two threads at a time
+
 class Counter {
     int count;
 
