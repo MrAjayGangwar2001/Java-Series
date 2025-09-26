@@ -1,4 +1,7 @@
 
+// we have Two option to use multiple thread class 
+//  1 .👉 By extends Thread
+//  2 . 👉 By implements Runnable
 
 /// THIS IS THE EXAME OF EXTEND THREAD-------
 
