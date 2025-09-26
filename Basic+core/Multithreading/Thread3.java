@@ -3,6 +3,9 @@
 // Mutable Variable  = We can Change Value anywhere in the program
 // UnMutable Variable  = We can not( fixed like constant ) Change Value anywhere in the program
 
+// In this program we using mutable variable that is count that default value is 0
+
+
 
 class Counter {
     int count;
