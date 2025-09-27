@@ -8,6 +8,7 @@ public class Demo_packages {
 }
 
 // Package is a structured of Files and Folder
-/
+//  Package manage files in Folder
+
 
 
