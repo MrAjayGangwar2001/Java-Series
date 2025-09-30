@@ -37,7 +37,7 @@ public class Finnaly2 {
             //   WAT 2 TO CLOSE ( IT WILL AUTOCLOSE )
             // THIS WAY IS NOT REQUIRED FINALLY BLOCK
 
-            Try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in)))
+            Try(BufferedReader  = new BufferedReader(new InputStreamReader(System.in)));
             {
                 a = Integer.parseInt(br.readLine());
                 System.out.println(a);
