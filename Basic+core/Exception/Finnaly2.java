@@ -16,8 +16,10 @@ public class Finnaly2 {
         BufferedReader br = null;
         try
         {
-            InputStreamReader brs = new InputStreamReader(System.in);   // instead of this line below the line
-           
+            // InputStreamReader brs = new InputStreamReader(System.in);   // instead of this line below the line
+            //InputStreamReader brs =     
+           BufferedReader br = new BufferedReader(brs);    /// instead of this line below the line
+
             a = Integer.parseInt(br.readLine());
             System.out.println("a-1");
             System.out.println("It's Done");
