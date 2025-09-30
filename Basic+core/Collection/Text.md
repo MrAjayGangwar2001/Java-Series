@@ -40,3 +40,24 @@ Interfaces (List, Set, Queue, Map)
 
 
 Core Hierarchy :- 
+
+
+
+java.util 
+│ 
+├── Collection (Interface) 
+│   ├── List (sub-Interface)  👉===> Contain Duplicate Elements
+│   │   ├── ArrayList 
+│   │   ├── LinkedList 
+│   │   └── Vector → Stack 
+│   ├── Set (sub-Interface)    👉===> No Duplicate Elements
+│   │   ├── HashSet (No Order)
+│   │   ├── LinkedHashSet  (Insertion order)
+│   │   └── SortedSet → TreeSet  (Order)
+│   └── Queue (sub-Interface)             👉 ===> FIFO  👉 Does not support duplicate elements
+│       ├── PriorityQueue 
+│       └── Deque (Interface) → ArrayDeque, LinkedList 
+│ 
+└── Map (Interface)        ===>(Key-Value Pair) 👉 Does Not     Allow Duplicate Keys(Value can be)
+    ├── HashMap 
+    ├── LinkedHashMap 
