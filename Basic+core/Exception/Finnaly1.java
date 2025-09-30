@@ -1,5 +1,6 @@
 
 //  Basicly Finally Block is used for Two Purpose
+// 1 . To Execute the Finally Statement After the Exception 
 
 public class Finnaly1 {
     public static void main(String[] args) {
