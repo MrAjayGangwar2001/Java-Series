@@ -61,3 +61,10 @@ java.util
 └── Map (Interface)        ===>(Key-Value Pair) 👉 Does Not Allow Duplicate Keys(Value can be)
     ├── HashMap 
     ├── LinkedHashMap 
+
+
+        Interface    ==> Collection , Map
+            |
+            |
+            v
+            
