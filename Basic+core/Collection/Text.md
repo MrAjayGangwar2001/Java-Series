@@ -37,3 +37,6 @@ Interfaces (List, Set, Queue, Map)
 ● Classes (ArrayList, HashSet, etc.) 
 ● Algorithms (sorting, searching, etc.) 
 ● Data Structures (trees, graphs, etc.)
+
+
+Core Hierarchy :- 
