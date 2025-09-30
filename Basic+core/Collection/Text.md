@@ -22,4 +22,12 @@ Collection (interface)
 │
 │
 │
-└──
+└──   Map (interface)
+       ├── HashMap
+       │   └── LinkedHashMap
+       ├── TreeMap
+       ├── Hashtable
+       │   └── Properties
+       └── ConcurrentMap (interface)
+       │    └── ConcurrentHashMap
+       └── ConcurrentSkipListMap
