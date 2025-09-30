@@ -1,4 +1,4 @@
-
+// This is The Second File Or Example of Exception
 class AjayException extends Exception {
     public AjayException(String message) {
         super(message);
