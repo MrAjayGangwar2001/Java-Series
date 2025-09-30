@@ -67,4 +67,7 @@ java.util
             |
             |
             v
-            
+            Sub-Interface    ==> List , Set , Queue
+            |
+            |
+            v
