@@ -8,7 +8,18 @@ Collection (interface)
 │       └── Stack
 │
 └── Queue (interface)
-    ├── LinkedList
-    ├── PriorityQueue
-    └── ArrayDeque
-
+│   ├── LinkedList
+│    ├── PriorityQueue
+│    └── ArrayDeque
+│
+│
+└──  Set (interface)
+│    ├── HashSet
+│    │   └── LinkedHashSet
+│    └── SortedSet (interface)
+│        └── NavigableSet (interface)
+│            └── TreeSet
+│
+│
+│
+└──
