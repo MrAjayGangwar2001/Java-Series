@@ -31,3 +31,6 @@ Collection (interface)
        └── ConcurrentMap (interface)
        │    └── ConcurrentHashMap
        └── ConcurrentSkipListMap
+
+
+Interfaces (List, Set, Queue, Map) 
