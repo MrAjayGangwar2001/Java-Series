@@ -1,0 +1,35 @@
+
+import java.io.BufferedReader;
+import java.io.IOException;
+
+public class Finnaly2 {
+    public static void main(String[] args) throws NumberFormatException, IOException {
+        
+        int a = 10;
+
+
+        
+
+        // WAY 1 TO CLOSE RESOURCES
+
+
+        BufferedReader br = null;
+        try
+        {
+            InputStreamReader brs = new InputStreamReader(System.in);   // instead of this line below the line
+           
+            a = Integer.parseInt(br.readLine());
+            System.out.println("a-1");
+            System.out.println("It's Done");
+
+        }
+        finally
+        { 
+            br.close();
+        }
+            
+
+
+           
+    }
+}
