@@ -58,6 +58,6 @@ java.util
 │       ├── PriorityQueue 
 │       └── Deque (Interface) → ArrayDeque, LinkedList 
 │ 
-└── Map (Interface)        ===>(Key-Value Pair) 👉 Does Not     Allow Duplicate Keys(Value can be)
+└── Map (Interface)        ===>(Key-Value Pair) 👉 Does Not Allow Duplicate Keys(Value can be)
     ├── HashMap 
     ├── LinkedHashMap 
