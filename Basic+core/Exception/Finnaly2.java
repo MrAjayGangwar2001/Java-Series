@@ -1,6 +1,7 @@
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Finnaly2 {
     public static void main(String[] args) throws NumberFormatException, IOException {
@@ -8,7 +9,7 @@ public class Finnaly2 {
         int a = 10;
 
 
-        
+        /*
 
         // WAY 1 TO CLOSE RESOURCES
 
@@ -30,9 +31,17 @@ public class Finnaly2 {
         { 
             br.close();
         }
-            
+            */
 
 
+            //   WAT 2 TO CLOSE ( IT WILL AUTOCLOSE )
+            // THIS WAY IS NOT REQUIRED FINALLY BLOCK
+
+            Try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in)))
+            {
+                a = Integer.parseInt(br.readLine());
+                System.out.println(a);
+            }
            
     }
 }
