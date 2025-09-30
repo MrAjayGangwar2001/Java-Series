@@ -1,6 +1,7 @@
 
 //  Basicly Finally Block is used for Two Purpose
 // 1 . To Execute the Finally Statement After the Exception 
+// 2 . To Close the Resources ex. in BufferReader Method we use to close the method 
 
 public class Finnaly1 {
     public static void main(String[] args) {
