@@ -44,16 +44,17 @@ public class ListAndArrayList {
         // System.out.println(hc);
         // System.out.println(ls); // [45, 55, 60, 70]
 
-         ArrayList<String> Shop = new ArrayList<>();
+        ArrayList<String> Shop = new ArrayList<>();
 
         Shop.add("Car");
         Shop.add("bike");
         Shop.add("Car");
         Shop.add("bike");
         Shop.add("Car");
-         Shop.add("bike");
+        Shop.add("bike");
         Shop.add("Car");
-
+        Shop.add("bike");
+        Shop.add("super Man");
 
         System.out.println(Shop);
 
