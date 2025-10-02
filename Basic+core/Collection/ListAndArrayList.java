@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.List;
 
 // ArrayList is Non-Synchronized that's why it is fast and Not Thread Safe than Vector bcos Vector is Synchronized
+// Vector is Synchronized that's why it is slow and Thread Safe than ArrayList
 
 
 public class ListAndArrayList {
