@@ -32,5 +32,8 @@ public class ListAndArrayList {
         int hc = ls.hashCode(); // to get the hash code of the list to evaluating a
         // formula
 
+        boolean bl = ls.isEmpty(); // to check if the list is empty or Not
+        ls.remove(3); // to remove the element at the specified index
+
     }
 }
