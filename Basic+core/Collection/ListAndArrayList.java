@@ -22,5 +22,15 @@ public class ListAndArrayList {
         ls.add(50);
         ls.add(60);
         System.out.println(ls);
+
+         int ch = ls.get(1); // to get the element at the specified index
+        ls.add(70);
+        ls.add(70);
+        // ls.add("Ajay");
+        int last = ls.getLast();
+        ls.remove(2); // to remove the element at the specified index
+        int hc = ls.hashCode(); // to get the hash code of the list to evaluating a
+        // formula
+
     }
 }
