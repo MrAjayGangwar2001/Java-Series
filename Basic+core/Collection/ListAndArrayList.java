@@ -35,5 +35,11 @@ public class ListAndArrayList {
         boolean bl = ls.isEmpty(); // to check if the list is empty or Not
         ls.remove(3); // to remove the element at the specified index
 
+         System.out.println("Size of list is " + ls.size());
+        System.out.println("Is list empty " + bl);
+
+
+
+        
     }
 }
