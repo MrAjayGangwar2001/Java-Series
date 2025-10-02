@@ -51,7 +51,8 @@ public class ListAndArrayList {
         Shop.add("Car");
         Shop.add("bike");
         Shop.add("Car");
-
+         Shop.add("bike");
+        Shop.add("Car");
 
 
         System.out.println(Shop);
