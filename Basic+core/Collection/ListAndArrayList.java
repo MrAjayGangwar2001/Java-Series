@@ -39,7 +39,11 @@ public class ListAndArrayList {
         System.out.println("Is list empty " + bl);
 
 
+         System.out.println("The Last Element from ArrayList" +last);
+        System.out.println(ch);
 
-        
+        System.out.println(hc);
+        System.out.println(ls); // [45, 55, 60, 70]
+
     }
 }
