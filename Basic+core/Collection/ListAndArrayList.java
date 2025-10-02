@@ -6,6 +6,7 @@ import java.util.List;
 // Vector is Synchronized that's why it is slow and Thread Safe than ArrayList
 //Note ==> 👉  To Make ArrayList Thread Safe we can use Collections.synchronizedList() OR  CopyOnWriteArrayList
 // List<String> syncList = Collections.synchronizedList(new ArrayList<>());
+// List<String> syncList = new CopyOnWriteArrayList<>();
 
 
 public class ListAndArrayList {
