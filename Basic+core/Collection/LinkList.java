@@ -17,6 +17,8 @@ public class LinkList {
         boolean bl = ls.isEmpty();
         System.out.println("Is list empty " + bl);
 
+        ls.remove(5);
+
         System.out.println("List Of The Elements " + ls);
 
     }
