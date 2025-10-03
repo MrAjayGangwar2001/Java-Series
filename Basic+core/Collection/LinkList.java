@@ -14,13 +14,13 @@ public class LinkList {
         ls.add(45);
         ls.add(45);
 
-        boolean bl = ls.isEmpty();
-        System.out.println("Is list empty " + bl);
+        // boolean bl = ls.isEmpty();
+        // System.out.println("Is list empty " + bl);
 
-        ls.remove(5);
-        ls.add("Ajay");
-        System.out.println(ls);
-        System.out.println("List Of The Elements " + ls);
+        // ls.remove(5);
+        // ls.add("Ajay");
+        // System.out.println(ls);
+        // System.out.println("List Of The Elements " + ls);
 
         ls.remove(3);
         System.out.println("List Of The Elements " + ls);
