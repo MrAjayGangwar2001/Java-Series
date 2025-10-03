@@ -19,8 +19,10 @@ public class LinkList {
 
         ls.remove(5);
         ls.add("Ajay");
-        System.out.println("Size of list is " + ls.size());
+        System.out.println(ls);
+        System.out.println("List Of The Elements " + ls);
 
+        ls.remove(3);
         System.out.println("List Of The Elements " + ls);
 
     }
