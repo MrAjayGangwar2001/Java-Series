@@ -1,5 +1,7 @@
 import java.util.*;
 
+// LinkedList In the Collection Framwork
+
 public class LinkList {
     public static void main(String[] args) {
 
