@@ -18,6 +18,7 @@ public class LinkList {
         System.out.println("Is list empty " + bl);
 
         ls.remove(5);
+        ls.add("Ajay");
 
         System.out.println("List Of The Elements " + ls);
 
