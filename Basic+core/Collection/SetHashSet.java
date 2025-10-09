@@ -39,6 +39,7 @@ public class SetHashSet {
 
         Shop.add("bike");
         Shop.add("Car");
-       
+        Shop.add("bike");
+        Shop.add("super Man");
     }
 }
