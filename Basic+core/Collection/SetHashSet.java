@@ -15,6 +15,9 @@ public class SetHashSet {
         st.add(0);
         st.add(56);
         st.add(7);
+        st.add(28);
+        st.add(9);
+        st.add(30);
 
        System.out.println(st);
     }
