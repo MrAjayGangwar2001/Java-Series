@@ -19,6 +19,9 @@ public class SetHashSet {
         st.add(9);
         st.add(30);
 
+        st.add(-10);
+
+
        System.out.println(st);
     }
 }
