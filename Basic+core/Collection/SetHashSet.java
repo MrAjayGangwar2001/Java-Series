@@ -3,6 +3,7 @@ import java.util.Set;
 
 // HashSet Provide the set of all possible values of the given expression.
 // HashSet Provide The Unique(No Duplicate) value But Not Sorted value of the given expression.
+// HashSet Provide The Fastest way to check the existence of a value in the set.
 
 public class SetHashSet {
     public static void main(String[] args) {
