@@ -41,5 +41,8 @@ public class SetHashSet {
         Shop.add("Car");
         Shop.add("bike");
         Shop.add("super Man");
+
+        System.out.println(Shop);
+
     }
 }
