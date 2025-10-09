@@ -1,7 +1,8 @@
 import java.util.HashSet;
 import java.util.Set;
 
-/
+// HashSet Provide the set of all possible values of the given expression.
+
 public class SetHashSet {
     public static void main(String[] args) {
         
