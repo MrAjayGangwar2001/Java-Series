@@ -7,6 +7,7 @@ public class SetHashSet {
         
 
        Set<Integer> st = new HashSet<Integer>();
+        st.add(5);
         st.add(1);
         st.add(2);
         st.add(3);
