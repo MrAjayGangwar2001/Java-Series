@@ -23,6 +23,7 @@ public class Stackk {
         sk.push(15);
         sk.pop();
 
+        System.out.println("Peek or Top of The Stack Element is : " +sk.peek());
 
         System.out.println(sk);
     }
