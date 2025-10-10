@@ -24,6 +24,9 @@ public class Vectors {
 
     Enumeration<Integer> e = vc.elements();
 
+    int id = vc.indexOf(31); // it return the index of element
+
+    System.out.println(id);
     System.out.println(cp);
     System.out.println(vc);
   }
