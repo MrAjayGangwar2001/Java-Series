@@ -66,6 +66,21 @@ public class Sorting {
                     }
                 }
             }; 
+        // We are Using Lamda Expression to sort students basis on age
+        Comparator<Students> com = (i, j) -> i.age > j.age ? 1 : -1;  // we can use this type of  Lamda Expression in one line or Below the code of both types
+       /*  Comparator<Students> com = (i, j)
+                -> {
+                    return i.age > j.age ? 1 : -1;
+
+               // 🤷‍♂️🤷‍♂️🤷‍♂️🤷‍♂️🤷‍♂️🤷‍♂️🤷‍♂️ [Instead of if else we can Use Ternory Operator]
+            // if (i.age > j.age) {       
+            //     return 1;             //  return 1 means it swap nums on condition
+            // } else {
+            //     return -1;            // return -1 means it don't swap nums on condition
+            // }
+
+        }; */
+
         
 
     }
