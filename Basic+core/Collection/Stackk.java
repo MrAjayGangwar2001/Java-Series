@@ -17,7 +17,13 @@ public class Stackk {
         sk.push(11);
         sk.push(12);
         sk.push(13);
-        
+        sk.push(14);
+        sk.push(16);
+        sk.push(17);
+        sk.push(15);
+        sk.pop();
+
+
         System.out.println(sk);
     }
 }
