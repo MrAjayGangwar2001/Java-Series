@@ -14,6 +14,9 @@ public class Stackk {
         sk.add(108);
         sk.add(4, 105); // To add element at specific position
 
+        sk.push(11);
+        sk.push(12);
+        sk.push(13);
         
         System.out.println(sk);
     }
