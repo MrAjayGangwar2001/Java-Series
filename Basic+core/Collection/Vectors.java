@@ -26,6 +26,9 @@ public class Vectors {
 
     int id = vc.indexOf(31); // it return the index of element
 
+    int idex = vc.indexOf(21, 1); // it return the index of element from index 1
+
+    System.out.println(idex);
     System.out.println(id);
     System.out.println(cp);
     System.out.println(vc);
