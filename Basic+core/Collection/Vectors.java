@@ -22,6 +22,8 @@ public class Vectors {
 
     int cp = vc.capacity(); // it return the capacity/size of vector. it will increase automatically
 
+    Enumeration<Integer> e = vc.elements();
+
     System.out.println(cp);
     System.out.println(vc);
   }
