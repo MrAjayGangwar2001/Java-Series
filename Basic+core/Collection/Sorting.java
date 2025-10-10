@@ -81,7 +81,20 @@ public class Sorting {
 
         }; */
 
-        
+        List<Students> numsList = new ArrayList<>();
+        numsList.add(new Students("Rahul", 21));
+        numsList.add(new Students("Prahlad", 24));
+        numsList.add(new Students("Rohan", 13));
+        numsList.add(new Students("Kuldeep", 25));
+        numsList.add(new Students("Mohit", 27));
+
+        System.out.println(numsList);
+
+        Collections.sort(numsList, com);
+
+        for (Students stud : numsList) {
+            System.out.println(stud);
+        }
 
     }
 }
