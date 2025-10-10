@@ -1,6 +1,7 @@
 import java.util.LinkedHashSet;
 
 // It Eliminate the duplicate value from the set
+// It is used to remove the duplicate value from the set
 
 
 public class LinkedHash {
