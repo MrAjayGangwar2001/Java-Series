@@ -52,22 +52,21 @@ public class Sorting {
 
         System.out.println(numsList);  */
 
+        // Now we starts Students class and sorting of students basis on age
+        // 
+            Comparator<Students> com = new Comparator<Students>()  /// Comaprator is a Functional Interface
+          {
+                public int compare(Students i , Students j)
+                {
+                    if (i.age > j.age) {
+                        return 1;             //  return 1 means it swap nums on condition
+                    }
+                    else {
+                        return -1;            // return -1 means it don't swap nums on condition
+                    }
+                }
+            }; 
         
-
-        List<Students> numsList = new ArrayList<>();
-        numsList.add(new Students("Rahul", 21));
-        numsList.add(new Students("Prahlad", 24));
-        numsList.add(new Students("Rohan", 13));
-        numsList.add(new Students("Kuldeep", 25));
-        numsList.add(new Students("Mohit", 27));
-
-        System.out.println(numsList);
-
-        Collections.sort(numsList, com);
-
-        for (Students stud : numsList) {
-            System.out.println(stud);
-        }
 
     }
 }
