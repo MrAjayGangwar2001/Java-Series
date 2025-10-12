@@ -47,5 +47,10 @@ public class Collection {
             int nums = (Integer) n;
             System.out.println(nums);
         }
+
+        Iterator<Integer> values = num.iterator();
+        while (values.hasNext()) {
+            System.out.println(values.next());
+        }
     }
 }
