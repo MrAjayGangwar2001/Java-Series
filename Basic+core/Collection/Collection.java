@@ -57,7 +57,6 @@ public class Collection {
         
         for(int n:num)
         {
-             
             System.out.println(n);
         }
          
