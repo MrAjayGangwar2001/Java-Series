@@ -22,6 +22,8 @@ public class Collection {
         Set<Integer> num = new HashSet<Integer>();    //  list Extends Set And Set Does not Support Repeated Value
         // but Set not Provide Sorted Values and also not Provide Index
         //  TO RESOLVE ALL THESE ISSUES those Mentioned diff. diff. Method In Comments WE USE TreeSet
+        //  TreeSet Provide Sorted Values and also Provide Index
+
 
 
         num.add(36);
