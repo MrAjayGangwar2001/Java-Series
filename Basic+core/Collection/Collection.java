@@ -20,6 +20,8 @@ public class Collection {
         // List<Integer> num = new ArrayList<Integer>(); // list Support Repeated Value
 
         Set<Integer> num = new HashSet<Integer>();    //  list Extends Set And Set Does not Support Repeated Value
+        // but Set not Provide Sorted Values and also not Provide Index
+
 
         num.add(36);
         num.add(50);
