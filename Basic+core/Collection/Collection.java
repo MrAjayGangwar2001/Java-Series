@@ -23,7 +23,10 @@ public class Collection {
         // but Set not Provide Sorted Values and also not Provide Index
         //  TO RESOLVE ALL THESE ISSUES those Mentioned diff. diff. Method In Comments WE USE TreeSet
         //  TreeSet Provide Sorted Values and also Provide Index
-        Set<Integer> num = new TreeSet<Integer>();    //  It Provides Sorted Values and also Provide Index
+        // Set<Integer> num = new TreeSet<Integer>();    //  It Provides Sorted Values and also Provide Index
+          // OR 
+       Collection<Integer> num = new TreeSet<Integer>();    //  Instead of Set We can Use Collection Because Set Extends Collection
+
 
 
 
