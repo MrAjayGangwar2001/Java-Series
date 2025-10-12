@@ -17,7 +17,7 @@ public class Collection {
 
     public static void main(String[] args) {
 
-        // List<Integer> num = new ArrayList<Integer>(); // list Support Repeated Value
+        List<Integer> num = new ArrayList<Integer>(); // list Support Repeated Value
 
         // Set<Integer> num = new HashSet<Integer>();    //  list Extends Set And Set Does not Support Repeated Value
         // but Set not Provide Sorted Values and also not Provide Index
@@ -25,7 +25,7 @@ public class Collection {
         //  TreeSet Provide Sorted Values and also Provide Index
         // Set<Integer> num = new TreeSet<Integer>();    //  It Provides Sorted Values and also Provide Index
           // OR 
-       Collection<Integer> num = new TreeSet<Integer>();    //  Instead of Set We can Use Collection Because Set Extends Collection
+       //  Collection<Integer> num = new TreeSet<Integer>();    //  Instead of Set We can Use Collection Because Set Extends Collection
 
 
 
@@ -48,17 +48,17 @@ public class Collection {
             System.out.println(nums);
         }
 
-        Iterator<Integer> values = num.iterator();
-        while (values.hasNext()) {
-            System.out.println(values.next());
-        }
+        // Iterator<Integer> values = num.iterator();
+        // while (values.hasNext()) {
+        //     System.out.println(values.next());
+        // }
 
 
         
-        for(int n:num)
-        {
-            System.out.println(n);
-        }
+        // for(int n:num)
+        // {
+        //     System.out.println(n);
+        // }
          
     }
 }
