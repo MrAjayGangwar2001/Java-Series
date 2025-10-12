@@ -17,7 +17,9 @@ public class Collection {
 
     public static void main(String[] args) {
 
-        List<Integer> num = new ArrayList<Integer>(); // list Support Repeated Value
+        // List<Integer> num = new ArrayList<Integer>(); // list Support Repeated Value
+
+        Set<Integer> num = new HashSet<Integer>();    //  list Extends Set And Set Does not Support Repeated Value
 
         num.add(36);
         num.add(50);
