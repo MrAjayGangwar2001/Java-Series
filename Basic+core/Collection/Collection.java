@@ -19,10 +19,11 @@ public class Collection {
 
         // List<Integer> num = new ArrayList<Integer>(); // list Support Repeated Value
 
-        Set<Integer> num = new HashSet<Integer>();    //  list Extends Set And Set Does not Support Repeated Value
+        // Set<Integer> num = new HashSet<Integer>();    //  list Extends Set And Set Does not Support Repeated Value
         // but Set not Provide Sorted Values and also not Provide Index
         //  TO RESOLVE ALL THESE ISSUES those Mentioned diff. diff. Method In Comments WE USE TreeSet
         //  TreeSet Provide Sorted Values and also Provide Index
+        Set<Integer> num = new TreeSet<Integer>();    //  It Provides Sorted Values and also Provide Index
 
 
 
