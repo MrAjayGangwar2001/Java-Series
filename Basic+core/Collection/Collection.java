@@ -10,6 +10,9 @@ import javax.swing.text.html.HTMLDocument.Iterator;
 import java.util.Collection;
 
 
+ // -------------   Array List
+// We use type <Integer> and it's provide us type of the list and also compile time error
+
 public class Collection {
 
     public static void main(String[] args) {
