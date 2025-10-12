@@ -52,5 +52,14 @@ public class Collection {
         while (values.hasNext()) {
             System.out.println(values.next());
         }
+
+
+        
+        for(int n:num)
+        {
+             
+            System.out.println(n);
+        }
+         
     }
 }
