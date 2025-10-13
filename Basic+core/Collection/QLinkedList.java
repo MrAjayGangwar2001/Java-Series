@@ -20,6 +20,8 @@ public class QLinkedList {
         // LinkedList Methods can Throw an Exception if can not be handle, code/Program can be Blast
         // But Queue Methods can not Throw an Exception if can not be handle,
         // code/Program will not Blast� or Return Null
+        // Ex. if we use remove Method if LinkedList is Empty then it will Throw an
+        // Exception but Here Queue Method will Return Null
         System.out.println("Element in Queue Before Operations are : " + q);
         
         q.poll();
