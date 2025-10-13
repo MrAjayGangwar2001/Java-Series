@@ -6,6 +6,12 @@ import java.util.Queue;
 // In The LinkedList, LinkedList have all own Methods. we will see.
 // Queue have all methods of Queue and LinkedList.
 
+// Queue have Some Methods like:
+// offer()  ==> add Element is in LinkedList
+// poll()   ==> remove Element is in LinkedList
+// peek()   ==> get Element is in LinkedList
+// size()   ==> get size of LinkedList
+
 public class QLinkedList {
     public static void main(String[] args) {
 
