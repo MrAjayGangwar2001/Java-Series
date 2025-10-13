@@ -18,6 +18,8 @@ public class QLinkedList {
 
         // LinkedList or add() Methods are nor Recommended to use in Queue becoz
         // LinkedList Methods can Throw an Exception if can not be handle, code/Program can be Blast
+        // But Queue Methods can not Throw an Exception if can not be handle,
+        // code/Program will not Blast� or Return Null
         System.out.println("Element in Queue Before Operations are : " + q);
         
         q.poll();
