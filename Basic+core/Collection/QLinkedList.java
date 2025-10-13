@@ -16,6 +16,7 @@ public class QLinkedList {
         q.offer(41);
         q.offer(51);
 
+        System.out.println("Element in Queue Before Operations are : " + q);
         
         q.poll();
         System.out.println("After removing (poll) Element from Queue is : " + q);
