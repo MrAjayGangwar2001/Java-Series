@@ -28,6 +28,12 @@ public class Treeset {
         ts.add(5);
         ts.add(5);         // Duplicate value
 
+        ts.add(25);
+        ts.add(15);       // Duplicate value
+        ts.add(15);       // Duplicate value
+        ts.add(15);
+
+        
         System.out.println(ts);
     }
 }
