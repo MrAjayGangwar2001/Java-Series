@@ -2,6 +2,7 @@ import java.util.TreeSet;
 import java.util.Comparator;
 import java.util.Set;
 
+// It Provides Sorted value in the set
 
 
 
@@ -33,7 +34,7 @@ public class Treeset {
         ts.add(15);       // Duplicate value
         ts.add(15);
 
-        
+
         System.out.println(ts);
     }
 }
