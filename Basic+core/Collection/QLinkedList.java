@@ -8,10 +8,10 @@ public class QLinkedList {
 
         Queue<Integer> q = new LinkedList<>();             // Insertion Order , Have Duplicate
 
-        q.add(11); // ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ 
+        q.add(11); // ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️  why? see in comment
         q.offer(41);
         q.offer(51);
-        q.add(21); // ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+        q.add(21); // ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️  why? see in comment
         q.offer(31);
         q.offer(41);
         q.offer(51);
