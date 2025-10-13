@@ -3,6 +3,7 @@ import java.util.Queue;
 
 // We can not Create Queue Object because Queue is an Interface in Java. We can only create class Object.
 // In Queue We will Use LinkedList.
+// In The LinkedList, LinkedList have all own Methods. we will see.
 
 public class QLinkedList {
     public static void main(String[] args) {
