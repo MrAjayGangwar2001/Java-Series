@@ -12,13 +12,20 @@ public class Treeset {
 
         // Value Align in Assending Order
 
-        Set<Integer> ts = new TreeSet<>(new Comparator<>(){             // Using Comparator  ==> Ascending Order
+        // Set<Integer> ts = new TreeSet<>(new Comparator<>(){             // Using Comparator  ==> Ascending Order
+        //     public int compare(Integer a, Integer b){
+        //         return a-b;
+        //     }
+        // });
+
+        // Value Align in Descending Order
+
+        Set<Integer> ts = new TreeSet<>(new Comparator<>(){               // Descending Order
             public int compare(Integer a, Integer b){
-                return a-b;
+                return b-a;
             }
         });
 
-        
 
         ts.add(10);
         ts.add(20);
