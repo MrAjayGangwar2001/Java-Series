@@ -23,7 +23,10 @@ public class Treeset {
         ts.add(50);
         ts.add(30);
         ts.add(40);
-       
+        ts.add(40);         // Duplicate value
+        ts.add(100);
+        ts.add(5);
+        ts.add(5);         // Duplicate value
 
         System.out.println(ts);
     }
