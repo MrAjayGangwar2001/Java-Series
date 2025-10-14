@@ -2,6 +2,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+// PriorityQueue Gives or store minimum/small value at index 0 or at start
 
 public class Priorityqueue {
 
