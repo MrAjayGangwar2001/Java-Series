@@ -30,6 +30,8 @@ public class Priorityqueue {
 
         min.poll();
         System.out.println("Priority Queue Elements are " +max);
+        System.out.println("Size of Priority Queue is : " +max.size());
+        System.out.println("Peek of Queue Element is : " +max.peek());
         
         System.out.println("Priority Queue Max Elements are " +max);        //   [7, 4, 5, 1, 3]
         
