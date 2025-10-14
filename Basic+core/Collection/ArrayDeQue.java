@@ -24,6 +24,11 @@ public class ArrayDeQue {
         System.out.println("First Element (by peekfirst()) of Deque is : " +dq.peekFirst());
         System.out.println("Last Element (by peeklast()) of Deque is : " +dq.peekLast());
 
+        dq.pollFirst();                 // Removes the first element from the deque.
+        dq.pollLast();                  // Removes the last element from the deque.
+        dq.removeFirst();                // Removes the first element from the deque.
+
+
         System.out.println("Deque elements are :- " +dq);
     }
 }
