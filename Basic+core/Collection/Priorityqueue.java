@@ -10,6 +10,7 @@ public class Priorityqueue {
         
         // No Order, has Duplicate
         Queue<Integer> min = new PriorityQueue<>();                   // Default is MinHeap
+        Queue<Integer> max = new PriorityQueue<>(Comparator.reverseOrder());                   // It is a MaxHeap
 
         min.offer(2);
         min.add(6);
