@@ -3,7 +3,8 @@ import java.util.Deque;
 
 // Deque is a Interface in Java which extends the Queue interface.
 // Deque is a double ended queue which means we can add or remove elements from both ends.
-
+// Deque is a part of Java Collections Framework.
+// Deque is implemented by ArrayDeque class in Java
 
 public class ArrayDeQue {
     public static void main(String[] args) {
