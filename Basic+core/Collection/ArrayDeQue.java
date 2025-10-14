@@ -8,6 +8,8 @@ import java.util.Deque;
 
 // In Deque We have some Methods :- 
 // Insert ==> 👉 ==> addFirst(e) | offerFirst(e) | addLast(e) | offerLast(e) | 
+// Remove ==> 👉 ==> removeFirst() | pollFirst() | removeLast() | pollLast() |
+// Examine ==> 👉 ==> getFirst() | peekFirst() | getLast() | peekLast() |
 
 public class ArrayDeQue {
     public static void main(String[] args) {
