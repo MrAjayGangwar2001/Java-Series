@@ -11,6 +11,15 @@ import java.util.Deque;
 // Remove ==> 👉 ==> removeFirst() | pollFirst() | removeLast() | pollLast() |
 // Examine ==> 👉 ==> getFirst() | peekFirst() | getLast() | peekLast() |
 
+
+// Queue Method    ===    Deque Method
+//    add(e)	              addLast(e)
+//    offer(e)	              offerLast(e)
+//    remove()	              removeFirst()
+//    poll()	              pollFirst()
+//    element()	              getFirst()
+//    peek()	              peekFirst()
+
 public class ArrayDeQue {
     public static void main(String[] args) {
         
