@@ -12,7 +12,12 @@ public class ArrayDeQue {
         dq.offer(10);
         dq.offer(15);
         dq.offer(20);
-        
+        dq.offerFirst(25);
+        dq.offer(15);
+        dq.offer(20);
+        dq.offerLast(30);
+        dq.addFirst(35);
+        dq.addLast(40);
 
         System.out.println("Deque elements are :- " +dq);
     }
