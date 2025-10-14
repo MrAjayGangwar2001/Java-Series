@@ -1,6 +1,7 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+// Deque is a Interface in Java which extends the Queue interface.
 
 
 public class ArrayDeQue {
