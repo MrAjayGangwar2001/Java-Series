@@ -15,7 +15,11 @@ public class Priorityqueue {
         min.add(6);
         min.add(7);
         min.add(8);
-       
+        min.offer(3);
+        min.add(9);
+        max.add(7);
+        max.offer(1);
+        max.add(8);
         
         System.out.println("Priority Queue Max Elements are " +max);        //   [7, 4, 5, 1, 3]
         
