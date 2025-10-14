@@ -19,6 +19,9 @@ public class ArrayDeQue {
         dq.addFirst(35);
         dq.addLast(40);
 
+        System.out.println("First Element (by getfirst()) of Deque is : " +dq.getFirst());
+        System.out.println("Last Element (by getlast()) of Deque is : " +dq.getLast());
+
         System.out.println("Deque elements are :- " +dq);
     }
 }
