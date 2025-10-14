@@ -21,6 +21,8 @@ public class ArrayDeQue {
 
         System.out.println("First Element (by getfirst()) of Deque is : " +dq.getFirst());
         System.out.println("Last Element (by getlast()) of Deque is : " +dq.getLast());
+        System.out.println("First Element (by peekfirst()) of Deque is : " +dq.peekFirst());
+        System.out.println("Last Element (by peeklast()) of Deque is : " +dq.peekLast());
 
         System.out.println("Deque elements are :- " +dq);
     }
