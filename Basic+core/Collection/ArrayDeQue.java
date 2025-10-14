@@ -6,6 +6,9 @@ import java.util.Deque;
 // Deque is a part of Java Collections Framework.
 // Deque is implemented by ArrayDeque class in Java
 
+// In Deque We have some Methods :- 
+// Insert ==> 👉 ==> addFirst(e) | offerFirst(e) | addLast(e) | offerLast(e) | 
+
 public class ArrayDeQue {
     public static void main(String[] args) {
         
