@@ -16,7 +16,15 @@ public class MAP {
         Students.put("Vijay" , 23);
         Students.put("Rohit" , 78);
 
+        System.out.println(Students);
+        System.out.println(Students.get("Manoj"));
+        System.out.println(Students.get("Aditya"));
         
+        System.out.println(Students.keySet());
+        System.out.println(Students.values());
+        System.out.println(Students.getClass());
+        System.out.println(Students.containsKey("Ajay"));
+        System.out.println(Students.isEmpty());
         System.out.println(Students.remove("Rohit"));
         System.out.println(Students);
         
