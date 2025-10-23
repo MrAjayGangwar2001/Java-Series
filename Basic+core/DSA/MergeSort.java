@@ -1,5 +1,6 @@
 // In Merge sort We Divide problem into sub-Problem then solve it  and Merge into one.
 // Time Complexity: O(n log n)
+// Space Complexity: O(n)
 
 public class MergeSort {
 
