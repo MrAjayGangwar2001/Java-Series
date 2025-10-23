@@ -1,3 +1,4 @@
+// In Merge sort We Divide problem into sub-Problem then solve it  and Merge into one.
 
 public class MergeSort {
 
