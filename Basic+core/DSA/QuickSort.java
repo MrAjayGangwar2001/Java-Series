@@ -1,6 +1,7 @@
 // Quick Sort Time Complexity is = O (n log(n));
 // Quick Sort Space Complexity is = O (log(n));
 // It Used Divide nd Conquer Technique.
+// In this technique , We divide the problem(array) into two or more subproblem and solve them recursively/Individualy and Combined.
 
 public class QuickSort {
 
