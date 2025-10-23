@@ -1,5 +1,6 @@
 // Quick Sort Time Complexity is = O (n log(n));
 // Quick Sort Space Complexity is = O (log(n));
+// It Used Divide nd Conquer Technique.
 
 public class QuickSort {
 
