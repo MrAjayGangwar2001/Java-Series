@@ -1,3 +1,4 @@
+// Quick Sort Time Complexity is = O (n log(n));
 
 public class QuickSort {
 
