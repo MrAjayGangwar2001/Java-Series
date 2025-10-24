@@ -1,6 +1,7 @@
 // We use Swapping Technique to Sort the array
 // Selection Sort Time Complexity is =  O(n^2)
 // Selection Sort sort nums in ascending order
+// In this Sort it suppose the first element is the largest and then we find the largest element in the rest of the array and swap it with the first element and then again find the largest then swap...
 
 public class SelectionSort {
     public static void main(String[] args) {
