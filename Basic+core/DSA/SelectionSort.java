@@ -1,3 +1,4 @@
+// We use Swapping Technique to Sort the array
 
 public class SelectionSort {
     public static void main(String[] args) {
