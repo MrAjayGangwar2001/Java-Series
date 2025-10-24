@@ -1,4 +1,5 @@
 // We use Swapping Technique to Sort the array
+// Selection Sort Time Complexity is =  O(n^2)
 
 public class SelectionSort {
     public static void main(String[] args) {
