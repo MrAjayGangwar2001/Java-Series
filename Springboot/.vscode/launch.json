@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FirsrAppApplication<FirsrApp>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.App.FirsrApp.FirsrAppApplication",
+            "projectName": "FirsrApp",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
