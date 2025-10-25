@@ -17,6 +17,11 @@ public class FirsrAppApplication {
 		// String print = obj.Start();
 		// System.out.println(print);
 
+		
+		// NOTE : - If we are creating manual object ( like normal java methods) then spring says 
+		// if you are crating object of a class so you have handel it and manage it i am not responsible.
+
+		
 		// Now spring will create object
 
 		Alien obj = context.getBean(Alien.class);
