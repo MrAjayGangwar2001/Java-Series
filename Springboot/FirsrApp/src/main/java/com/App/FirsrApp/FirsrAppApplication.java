@@ -13,11 +13,14 @@ public class FirsrAppApplication {
 
 		System.out.println("Hey Alien ! This is My First App and Learning fron Youtube Telusko");
 
-		 Alien obj = new Alien();         // Here We can do that and it will work
-		String print = obj.Start();
-		System.out.println(print);
+		// Alien obj = new Alien();         // Here We can do that and it will work
+		// String print = obj.Start();
+		// System.out.println(print);
 
-		
+		// Now spring will create object
+
+		Alien obj = context.getBean(Alien.class);
+		obj.Start();
 
 	}
 
