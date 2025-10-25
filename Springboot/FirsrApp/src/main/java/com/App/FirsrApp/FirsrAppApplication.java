@@ -21,6 +21,9 @@ public class FirsrAppApplication {
 		// NOTE : - If we are creating manual object ( like normal java methods) then spring says 
 		// if you are crating object of a class so you have handel it and manage it i am not responsible.
 
+
+		// what Spring Says : 
+		// I can give you object and i will manage and handle but for this you have to tell me and this is recommended approach.
 		
 		// Now spring will create object
 
