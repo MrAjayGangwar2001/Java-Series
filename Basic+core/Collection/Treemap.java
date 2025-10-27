@@ -3,6 +3,7 @@ import java.util.Map;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
+// Map is Non Synchronized and Not Thread Safe
 
 public class Treemap {
 
