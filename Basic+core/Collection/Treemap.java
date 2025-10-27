@@ -18,7 +18,15 @@ public class Treemap {
         tmap.put(1, "Tomato");
         tmap.put(3, "Carrot");
         tmap.put(7, "Cauliflower");
-        
+        tmap.put(8, "Brussels Sprouts");
+        tmap.put(6, "Broccoli");
+        tmap.put(1, "Tomato");
+        tmap.put(3, "Carrot");
+        tmap.put(4, "Beetroot");
+        tmap.put(9, "Kale");
+        tmap.put(5, "Spinach");
+        tmap.put(10, "Cucumber");
+        tmap.put(11, "Curd");
         System.out.println("List of TreeMap Elements are : " + tmap);
     }
 }
