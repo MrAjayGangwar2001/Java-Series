@@ -9,6 +9,7 @@ public class Treemap {
 
     public static void main(String[] args) {
 
+     //   SortedMap m = Collections.synchronizedSortedMap(new TreeMap(...));
 
         Map<Integer, String> tmap = new TreeMap<>(); // Sorted Ascending Order
                                                      // No Duplicate keys
