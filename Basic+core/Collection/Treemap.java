@@ -32,6 +32,12 @@ public class Treemap {
         System.out.println("Is Contain Key " + 6 + " : " + tmap.containsKey(6));
         System.out.println("Is Contain Value " + "Milk" + " : " +tmap.containsValue("Milk"));
         System.out.println("Is Empty : " + tmap.isEmpty());
+        System.out.println("Key Set : " + tmap.keySet());
+        System.out.println("Value Set : " + tmap.values());
+        System.out.println("Entry Set : " + tmap.entrySet());
+
+
+
         System.out.println("List of TreeMap Elements are : " + tmap);
     }
 }
