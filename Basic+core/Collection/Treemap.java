@@ -37,7 +37,8 @@ public class Treemap {
         System.out.println("Entry Set : " + tmap.entrySet());
         System.out.println("Size : " + tmap.size());
         // System.out.println("First Entry : " + tmap.firstEntry(6, "Milk"));
-
+        // System.out.println("Last Entry : " + tmap.lastEntry());
+        //  System.out.println("Higher Entry : " + tmap.higherEntry(6));
 
         System.out.println("List of TreeMap Elements are : " + tmap);
     }
