@@ -27,6 +27,11 @@ public class Treemap {
         tmap.put(5, "Spinach");
         tmap.put(10, "Cucumber");
         tmap.put(11, "Curd");
+
+        
+        System.out.println("Is Contain Key " + 6 + " : " + tmap.containsKey(6));
+        System.out.println("Is Contain Value " + "Milk" + " : " +tmap.containsValue("Milk"));
+        System.out.println("Is Empty : " + tmap.isEmpty());
         System.out.println("List of TreeMap Elements are : " + tmap);
     }
 }
