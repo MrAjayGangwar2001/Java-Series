@@ -1,6 +1,7 @@
 package LeetCode;
 
 // Remove Specific Element from an Array
+// Return Array Size After Removing Element
 public class RemoveElement{
     public static int main(int[] args) {
         int arr[] = {1,2,3,5,6,3,7,8,3,9,3,10};
