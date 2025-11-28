@@ -1,5 +1,7 @@
 package LeetCode;
 
+// Remove Duplicate Element From An Array 
+// Return Size of Array After Removing Element
 public class RemoveDuplicate {
     
     public static int main(int[] nums) {
